@@ -21,10 +21,22 @@ ul li{
 .jumbotron{
     background-image: url(https://img.freepik.com/vector-gratis/composicion-realista-electrodomesticos_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710288000&semt=ais);
     background-position: center;
+    padding: 20px;
     
 }
+.tituloprod{
+    font-size:2.4rem;
+}
+.img-prod{
+    width: 150px;
 
+}
 
+.card-producto{
+    padding: 12px;
+    margin:15px;
+    border:0.5px solid rgb(201, 183, 201);
+}
 /* Comienzo footer */
 
 footer{
