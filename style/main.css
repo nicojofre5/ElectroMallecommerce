@@ -17,3 +17,20 @@ ul li{
     padding: 5px;
 }
 /* fin de normalizacion s */
+
+.jumbotron{
+    background-image: url(https://img.freepik.com/vector-gratis/composicion-realista-electrodomesticos_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710288000&semt=ais);
+    background-position: center;
+    
+}
+
+
+/* Comienzo footer */
+
+footer{
+    background-color: rgb(58, 4, 33);
+    color: white;
+    padding: 15px;
+    font-size:2rem;
+}
+/* FIn de footer */
