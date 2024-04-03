@@ -15,14 +15,25 @@ ul li{
 .nav-link, .login,.bi-box-arrow-in-right{
     font-size: 1.4rem;
     padding: 5px;
+    color: white;
 }
 /* fin de normalizacion s */
+/* Nav bar */
 
+.navbar-toggler-icon{
+    font-size:1.4rem;
+}
 .jumbotron{
-    background-image: url(https://img.freepik.com/vector-gratis/composicion-realista-electrodomesticos_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710288000&semt=ais);
+    background-image: url(https://media.istockphoto.com/id/1292038829/es/foto/ordenador-port%C3%A1til-con-iluminaci%C3%B3n-rosa-azul-y-lugar-de-pantalla-en-blanco-sobre-fondo-oscuro.jpg?b=1&s=612x612&w=0&k=20&c=dnxSMHaF68TdbJ9GsQ5td1N86v1SnDdFgk6VKcK-U1w=);
     background-position: center;
     padding: 20px;
     
+}
+.cont-inicial{
+    background-color: rgba(29, 27, 29, 0.432);
+    color: white;
+    border-radius: 15px;
+    padding: 12px;
 }
 .tituloprod{
     font-size:2.4rem;
