@@ -62,8 +62,19 @@ ul li{
     margin: 5px;;
 
 }
-/* Comienzo footer */
-
+/* Sobre mi  */
+.text-descript-centro-sobremi{
+    font-size: 2rem;
+    text-align: justify;
+}
+.sobremicont{
+    font-size: 2rem;
+    margin: 10px;
+}
+.sobremicont img{
+    width: 120px;
+    height: 100px;
+}
 /* Pagina producto unica*/
 
 .side-izq{
