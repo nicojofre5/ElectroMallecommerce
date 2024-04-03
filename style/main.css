@@ -64,6 +64,15 @@ ul li{
 }
 /* Comienzo footer */
 
+/* Pagina producto unica*/
+
+.side-izq,.text-descript-centro{
+    font-size:2.4rem;
+}
+.cont-img-side-izq{
+    background-color: rgb(204, 198, 198);
+}
+
 footer{
     background-color: rgb(58, 4, 33);
     color: white;
