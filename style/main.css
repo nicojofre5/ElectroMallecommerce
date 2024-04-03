@@ -66,15 +66,53 @@ ul li{
 
 /* Pagina producto unica*/
 
-.side-izq,.text-descript-centro{
-    font-size:2.4rem;
+.side-izq{
+    font-size:2.8rem;
 }
-.cont-img-side-izq{
-    background-color: rgb(204, 198, 198);
+.text-descript-centro{
+    font-size: 2.0rem;
+    text-align: left;
+}
+.main-producto{
+    min-height: 100vh;
+    padding: 80px 5px 10px;
 }
 
+.cont-img-side-izq{
+    border-right: 0.5px solid rgb(86, 1, 88);
+    padding: 30px;
+    min-height: 60vh;
+}
+.img-prod-relacionados{
+    font-size: 1.9rem;
+}
+.img-prod-relacionados img{
+    width: 140px;
+}
+.descrip-producto{
+    font-size: 1.9rem;
+}
+.cont-button-side-izq{
+    font-size: 1.3rem;
+    padding: 4px;
+}
+.cont-button-side-izq button{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight:500;
+}
+.btn-carrito{
+    border:1px solid rgb(69, 61, 180);
+    background-color: rgb(104, 146, 185);
+}
+.btn-regresar{
+    background-color: rgb(136, 12, 12);
+    border:1px solid rgb(107, 77, 134);
+}
+/* Comienza footer */
 footer{
-    background-color: rgb(58, 4, 33);
+    background-color: rgba(107, 0, 194, 0.192);
     color: white;
     padding: 15px;
     font-size:2rem;
