@@ -36,8 +36,21 @@ ul li{
     padding: 12px;
     margin:15px;
     border:0.5px solid rgb(201, 183, 201);
+   
 }
+.card-producto-descrip{
+    font-size: 1.4rem;
+    padding:6px;
+    text-align: justify;
+}
+.bts{
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;;
 
+}
 /* Comienzo footer */
 
 footer{
