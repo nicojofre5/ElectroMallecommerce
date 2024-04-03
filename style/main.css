@@ -46,7 +46,7 @@ ul li{
 .card-producto{
     padding: 12px;
     margin:15px;
-    border:0.5px solid rgb(201, 183, 201);
+    border:0.5px solid rgba(201, 183, 201, 0.027);
    
 }
 .card-producto-descrip{
