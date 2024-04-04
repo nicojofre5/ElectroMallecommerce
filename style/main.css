@@ -125,10 +125,35 @@ ul li{
 textarea{
     resize: none;
     width: 100%;
+    padding: 10px 10px;
+    height: 120px;
+    font-size: 1.4rem;
+}
+.btn-regresar-contacto{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border:2px solid green;
+    padding: 4px;
+}
+/* Pagina agradecimiento */
+.text-gracias{
+    background-color: grey;
+    padding: 15px;
+    margin: 20px 0px;
 }
 .form-contacto label{
     font-size: 1.3rem;
     padding: 5px 0px;
+}
+.btn-enviar-contacto{
+    padding: 5px;
+    margin: 10px 2px;
+    border: 1px solid green;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+.contacto-container p{
+    font-size: 1.1rem;
 }
 /* Comienza footer */
 footer{
