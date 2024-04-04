@@ -121,6 +121,15 @@ ul li{
     background-color: rgb(136, 12, 12);
     border:1px solid rgb(107, 77, 134);
 }
+/* Pagina de contacot */
+textarea{
+    resize: none;
+    width: 100%;
+}
+.form-contacto label{
+    font-size: 1.3rem;
+    padding: 5px 0px;
+}
 /* Comienza footer */
 footer{
     background-color: rgba(107, 0, 194, 0.192);
