@@ -175,3 +175,40 @@ footer{
     margin: 0px 5px;
 }
 /* FIn de footer */
+
+/* Registro */
+
+.form-registro div>label{
+    font-size: 1.6rem;
+}
+
+/* carrito */
+
+.cont-carrito{
+    background-color: rgb(224, 220, 220);
+    padding: 35px;
+}
+
+.producto_carrito div>h3{
+    font-size: 1.7rem;
+}
+.producto_carrito div>p{
+    font-size: 1.2rem;
+}
+.producto_carrito{
+
+    padding: 4px;
+    border-radius: 5px;
+}
+.col-borrar-producto a{
+    font-size: 1.5rem;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+.img-prod-carrito img{
+    width: 100px;
+    border:1px solid black;
+    border-radius:7px;
+}
