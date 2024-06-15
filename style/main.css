@@ -214,5 +214,18 @@ footer{
 }
 .cont-precio-carrito{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.precio-carrito div>p{
+    font-size: 1.4rem;
+    padding: 5px;
+    display: inline-flex;
+}
+.cont-btn-carrito a{
+    font-size: 1.3rem;
+    padding: 9px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
 }
