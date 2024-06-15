@@ -212,3 +212,7 @@ footer{
     border:1px solid black;
     border-radius:7px;
 }
+.cont-precio-carrito{
+    display: flex;
+    justify-content: end;
+}
