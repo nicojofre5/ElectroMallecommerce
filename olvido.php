@@ -38,24 +38,24 @@
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link " href="index.html" aria-current="page"
+                <a class="nav-link " href="index.php" aria-current="page"
                   >Home <span class="visually-hidden">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="escritorio.html">Escritorio</a>
+                <a class="nav-link" href="escritorio.php">Escritorio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobremi.html">Sobre mi</a>
+                <a class="nav-link" href="sobremi.php">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="contacto.html">Contacto</a>
+                <a class="nav-link active" href="contacto.php">Contacto</a>
               </li>
             </ul>
             <div class="d-flex my-2 my-lg-0">
               <ul class="menu-login">
                 <li>
-                  <a href="login.html" class="login">
+                  <a href="login.php" class="login">
                     <i class="bi bi-box-arrow-in-right"></i>Login</a
                   >
                 </li>
@@ -96,7 +96,7 @@
             <h2>¿Olvidó su contraseña?  </h2>
             <div class="iniciar-container">
         
-            <form action="olvido-gracias.html" method="get" class="form-contacto">
+            <form action="olvido-gracias.php" method="get" class="form-contacto">
                 
                 <label for="" class="form-label">Email:</label>
                 <input
@@ -157,7 +157,7 @@
       </div>
     </main>
     <footer class="container-fluid text-center">
-      <a href="aviso.html">Aviso de privacidad</a>
+      <a href="aviso.php">Aviso de privacidad</a>
     </footer>
 
     <script

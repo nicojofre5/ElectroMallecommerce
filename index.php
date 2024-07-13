@@ -38,24 +38,24 @@
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html" aria-current="page"
+                <a class="nav-link active" href="index.php" aria-current="page"
                   >Home <span class="visually-hidden">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="escritorio.html">Escritorio</a>
+                <a class="nav-link" href="escritorio.php">Escritorio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobremi.html">Sobre mi</a>
+                <a class="nav-link" href="sobremi.php">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="contacto.html">Contacto</a>
+                <a class="nav-link " href="contacto.php">Contacto</a>
               </li>
             </ul>
             <div class="d-flex my-2 my-lg-0">
               <ul class="menu-login">
                 <li>
-                  <a href="login.html" class="login">
+                  <a href="login.php" class="login">
                     <i class="bi bi-box-arrow-in-right"></i>Login</a
                   >
                 </li>
@@ -75,8 +75,8 @@
       <div class="container-fluid bg-3 text-center">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook ASUS</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook ASUS</a></p>
+            <a href="producto.php">
               <img
                 src="https://s3-sa-east-1.amazonaws.com/saasargentina/JyNMe54QqkoWP7UGGiz6/imagen"
                 alt=""
@@ -84,11 +84,11 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img
                 src="https://bangho.vtexassets.com/arquivos/ids/161463/bangho_2022_gm_01.jpg?v=638386093707500000"
                 alt=""
@@ -96,31 +96,31 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://www.compulandia.com.py/wp-content/uploads/2023/10/NOTEBOOK-HP-15-DY2792WM-I3-1115G4-8GB-256GB-SSD-HD-15.6%E2%80%B3-AZUL-imagen-frontal-300x300.jpg" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-NSX-ARGUS-156-I3-12GB-SSD-480-W11H.webp" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
         </div>
       </div>
       <div class="container-fluid bg-3 text-center">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook ASUS</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook ASUS</a></p>
+            <a href="producto.php">
               <img
                 src="https://s3-sa-east-1.amazonaws.com/saasargentina/JyNMe54QqkoWP7UGGiz6/imagen"
                 alt=""
@@ -128,11 +128,11 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img
                 src="https://bangho.vtexassets.com/arquivos/ids/161463/bangho_2022_gm_01.jpg?v=638386093707500000"
                 alt=""
@@ -140,31 +140,31 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://www.compulandia.com.py/wp-content/uploads/2023/10/NOTEBOOK-HP-15-DY2792WM-I3-1115G4-8GB-256GB-SSD-HD-15.6%E2%80%B3-AZUL-imagen-frontal-300x300.jpg" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-NSX-ARGUS-156-I3-12GB-SSD-480-W11H.webp" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
         </div>
       </div>
       <div class="container-fluid bg-3 text-center">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook ASUS</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook ASUS</a></p>
+            <a href="producto.php">
               <img
                 src="https://s3-sa-east-1.amazonaws.com/saasargentina/JyNMe54QqkoWP7UGGiz6/imagen"
                 alt=""
@@ -172,11 +172,11 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img
                 src="https://bangho.vtexassets.com/arquivos/ids/161463/bangho_2022_gm_01.jpg?v=638386093707500000"
                 alt=""
@@ -184,23 +184,23 @@
               />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://www.compulandia.com.py/wp-content/uploads/2023/10/NOTEBOOK-HP-15-DY2792WM-I3-1115G4-8GB-256GB-SSD-HD-15.6%E2%80%B3-AZUL-imagen-frontal-300x300.jpg" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
           <div class="col-lg-2 card-producto">
-            <p class="tituloprod"><a href="producto.html">Notebook</a></p>
-            <a href="producto.html">
+            <p class="tituloprod"><a href="producto.php">Notebook</a></p>
+            <a href="producto.php">
               <img src="https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-NSX-ARGUS-156-I3-12GB-SSD-480-W11H.webp" alt="" class="img-fluid img-rounded img-prod" />
             </a>
             <p class="card-producto-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, voluptatibus vitae quibusdam, consequatur molestias ad illum nulla laudantium facilis rem odit nisi iusto ab cumque, totam sint adipisci minima?</p>
-            <a href="producto.html" class="bts btn-info">$150.00</a>
+            <a href="producto.php" class="bts btn-info">$150.00</a>
           </div>
         </div>
       </div>
