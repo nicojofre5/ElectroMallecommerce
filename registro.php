@@ -1,3 +1,7 @@
+<?php
+require "lib/conn.php";
+?>
+
 <!DOCTYPE html>
 
 <html lang="es">
