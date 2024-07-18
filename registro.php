@@ -1,5 +1,27 @@
 <?php
 require "lib/conn.php";
+
+if(isset($_POST["nombre"])){
+  $nombre = $_POST["nombre"];
+  $apellido = $_POST["apellido"];
+  $usuario = $_POST["usuario"];
+  $ciudad = $_POST["ciudad"];
+  $pais = $_POST["pais"];
+  $codigopostal = $_POST["codigopostal"];
+  $errores=array();
+  if($nombre==""){
+    $errores[0]="El nombre del usuario es requerido";
+  }
+  else if ($apellido){
+    $errores[1]="El apellido es requrido";
+  }
+  else{
+    $sql = "INSERT INTO usuarios VALUES (,";
+    $sql .= "'".$nombre."', '".$apellido."',";
+    $sql .= "'".$usuario."', '".$ciudad."',";
+    $sql .= "'".$pais."', '".$codigopostal."')";
+  }
+}
 ?>
 
 <!DOCTYPE html>
@@ -104,12 +126,12 @@ require "lib/conn.php";
               <form
                 class="row g-3 form-registro"
                 novalidate=""
-                action="contacto-gracias.php"
-                method="get"
+                action="registro.php"
+                method="post"
               >
                 <div class="col-md-4 position-relative">
                   <label for="validationTooltip01" class="form-label"
-                    >First name</label
+                    >Nombre</label
                   >
                   <input
                     type="text"
@@ -117,12 +139,12 @@ require "lib/conn.php";
                     id="validationTooltip01"
                     value="Mark"
                     required=""
+                    name="nombre"
                   />
-                  <div class="valid-tooltip">Looks good!</div>
-                </div>
+                 </div>
                 <div class="col-md-4 position-relative">
                   <label for="validationTooltip02" class="form-label"
-                    >Last name</label
+                    >Apellido</label
                   >
                   <input
                     type="text"
@@ -130,12 +152,12 @@ require "lib/conn.php";
                     id="validationTooltip02"
                     value="Otto"
                     required=""
+                    name="apellido"
                   />
-                  <div class="valid-tooltip">Looks good!</div>
                 </div>
                 <div class="col-md-4 position-relative">
                   <label for="validationTooltipUsername" class="form-label"
-                    >Username</label
+                    >Usuario</label
                   >
                   <div class="input-group has-validation">
                     <span
@@ -149,57 +171,55 @@ require "lib/conn.php";
                       id="validationTooltipUsername"
                       aria-describedby="validationTooltipUsernamePrepend"
                       required=""
+                      name="usuario"
                     />
-                    <div class="invalid-tooltip">
-                      Please choose a unique and valid username.
-                    </div>
+                  
                   </div>
                 </div>
                 <div class="col-md-6 position-relative">
                   <label for="validationTooltip03" class="form-label"
-                    >City</label
+                    >Pais</label
                   >
                   <input
                     type="text"
                     class="form-control"
                     id="validationTooltip03"
                     required=""
+                    name="pais"
                   />
-                  <div class="invalid-tooltip">
-                    Please provide a valid city.
-                  </div>
+                 
                 </div>
                 <div class="col-md-3 position-relative">
                   <label for="validationTooltip04" class="form-label"
-                    >State</label
+                    >Ciudad</label
                   >
                   <select
                     class="form-select"
                     id="validationTooltip04"
                     required=""
+                    name="ciudad"
                   >
                     <option selected="" disabled="" value="">Choose...</option>
                     <option>...</option>
                   </select>
-                  <div class="invalid-tooltip">
-                    Please select a valid state.
-                  </div>
+                
                 </div>
                 <div class="col-md-3 position-relative">
                   <label for="validationTooltip05" class="form-label"
-                    >Zip</label
+                    >Codigo postal</label
                   >
                   <input
                     type="text"
                     class="form-control"
                     id="validationTooltip05"
                     required=""
+                    name="codigopostal"
                   />
                   <div class="invalid-tooltip">Please provide a valid zip.</div>
                 </div>
                 <div class="col-12">
                   <button class="btn btn-primary" type="submit">
-                    Submit form
+                   Enviar
                   </button>
                 </div>
               </form>
